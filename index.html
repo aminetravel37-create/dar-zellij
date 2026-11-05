@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- SEO -->
+    <title>Dar Zellij | Restaurant Marocain à Casablanca</title>
+
+    <meta name="description" content="Découvrez Dar Zellij, restaurant marocain à Casablanca. Savourez une cuisine marocaine traditionnelle dans une ambiance élégante et chaleureuse.">
+
+    <meta name="keywords" content="Dar Zellij, restaurant marocain, restaurant Casablanca, cuisine marocaine, gastronomie marocaine">
+
+    <meta name="author" content="Dar Zellij">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph : partage sur les réseaux sociaux -->
+    <meta property="og:title" content="Dar Zellij | Restaurant Marocain">
+    <meta property="og:description" content="Découvrez la cuisine marocaine chez Dar Zellij à Casablanca.">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+       <a href="#home" class="logo">
+    <img src="logo.png" alt="Dar Zellij" loading="lazy"></a>
+
+        <nav class="navbar">
+            <a href="#home">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Galerie</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn-header">
+            Réserver
+        </a>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                BIENVENUE CHEZ DAR ZELLIJ
+            </p>
+
+            <h1>
+                L'élégance de la
+                <span>cuisine marocaine</span>
+            </h1>
+
+            <p class="description">
+                Découvrez une expérience culinaire unique,
+                où les traditions marocaines rencontrent
+                l'élégance et le raffinement.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="btn-primary">
+                    Découvrir notre menu
+                </a>
+
+                <a href="#about" class="btn-secondary">
+                    En savoir plus
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-overlay"></div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?w=900"
+                alt="Cuisine marocaine"
+                loading="lazy"
+            >
+        </div>
+
+        <div class="about-content">
+
+            <p class="subtitle">NOTRE HISTOIRE</p>
+
+            <h2>
+                Une tradition,
+                <span>une passion</span>
+            </h2>
+
+            <p>
+                Chez Dar Zellij, nous vous invitons à découvrir
+                les saveurs authentiques du Maroc.
+                Des recettes traditionnelles préparées avec
+                passion et des ingrédients soigneusement sélectionnés.
+            </p>
+
+            <a href="#contact" class="btn-primary">
+                Découvrir notre restaurant
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU SECTION -->
+
+    <section class="menu" id="menu">
+
+        <div class="section-title">
+
+            <p class="subtitle">NOS SPÉCIALITÉS</p>
+
+            <h2>
+                Découvrez notre <span>Menu</span>
+            </h2>
+
+            <p>
+                Des saveurs authentiques pour une expérience inoubliable.
+            </p>
+
+        </div>
+
+<div class="menu-filters">
+
+    <button class="filter-btn active" data-filter="all">
+        Tout
+    </button>
+
+    <button class="filter-btn" data-filter="entree">
+        Entrées
+    </button>
+
+    <button class="filter-btn" data-filter="plat">
+        Plats
+    </button>
+
+    <button class="filter-btn" data-filter="dessert">
+        Desserts
+    </button>
+
+</div>
+
+        <div class="menu-container">
+    <!--card 1-->
+            <div class="menu-card" data-category="plat">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=700"
+                    alt="Tajine"
+                    loading="lazy"
+                >
+
+                <div class="menu-info">
+                    <h3>Tajine Marocain</h3>
+                    <p>Préparé avec des épices traditionnelles.</p>
+                    <span>85 DH</span>
+                </div>
+
+            </div>
+
+        <!--card 2-->
+            <div class="menu-card" data-category="plat">
+        
+                <img
+                    src="https://images.unsplash.com/photo-1544025162-d76694265947?w=700"
+                    alt="Viande grillée"
+                    loading="lazy"
+                >
+
+                <div class="menu-info">
+                    <h3>Grillades</h3>
+                    <p>Une sélection de viandes savoureuses.</p>
+                    <span>120 DH</span>
+                </div>
+
+            </div>
+        <!--card 3-->
+
+            <div class="menu-card" data-category="plat">
+
+                <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700"
+                    alt="Restaurant"
+                    loading="lazy"
+                >
+
+                <div class="menu-info">
+                    <h3>Menu Traditionnel</h3>
+                    <p>Une expérience aux saveurs du Maroc.</p>
+                    <span>100 DH</span>
+                </div>
+
+            </div>
+        <!--card 4-->
+            <div class="menu-card" data-category="entree">
+
+               <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700"
+                   alt="Salade Marocaine"
+                   loading="lazy">
+
+              <div class="menu-info">
+                    <h3>Salade Marocaine</h3>
+                   <p>Une entrée fraîche et traditionnelle.</p>
+                   <span>35 DH</span>
+             </div>
+
+            </div>
+        <!--card 5-->
+            <div class="menu-card" data-category="dessert">
+
+                 <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=700"
+                      alt="Dessert"
+                      loading="lazy">
+
+              <div class="menu-info">
+                  <h3>Dessert Maison</h3>
+                  <p>Une douceur préparée avec passion.</p>
+                  <span>40 DH</span>
+             </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY SECTION -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="section-title">
+
+            <p class="subtitle">NOTRE UNIVERS</p>
+
+            <h2>
+                Galerie <span>Photos</span>
+            </h2>
+
+        </div>
+
+        <div class="gallery-container">
+
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700" alt="Plat" loading="lazy">
+
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=700" alt="Cuisine" loading="lazy">
+
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700" alt="Restaurant" loading="lazy">
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+        <p class="subtitle">CONTACTEZ-NOUS</p>
+
+        <h2>
+            Réservez votre <span>table</span>
+        </h2>
+    </div>
+
+    <div class="contact-content">
+
+        <form id="reservation-form">
+
+            <div class="form-group">
+                <label for="nom">Nom complet</label>
+                <input type="text" id="nom"
+                       placeholder="Votre nom complet" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone"
+                       placeholder="06XXXXXXXX" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="heure">Heure</label>
+                <input type="time" id="heure" required>
+            </div>
+
+            <div class="form-group">
+                <label for="personnes">Nombre de personnes</label>
+                <select id="personnes" required>
+                    <option value="">Choisir</option>
+                    <option value="1">1 personne</option>
+                    <option value="2">2 personnes</option>
+                    <option value="3">3 personnes</option>
+                    <option value="4">4 personnes</option>
+                    <option value="5">5 personnes</option>
+                    <option value="6">6 personnes</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-primary">
+                Confirmer la réservation
+            </button>
+
+            <p id="form-message"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ===== LOCALISATION ===== -->
+
+<section class="location" id="localisation">
+
+    <div class="section-title">
+        <p class="subtitle">NOUS TROUVER</p>
+        <h2>Notre <span>emplacement</span></h2>
+        <p>Lotissement Zoubir, Oulfa, Casablanca</p>
+    </div>
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps?q=Lotissement+Zoubir,+Casablanca&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>
+
+</section>
+<div class="opening-hours">
+    <h3>Horaires d'ouverture</h3>
+    <p>
+        <span>Tous les jours</span>
+        <strong>12:00 - 00:00</strong>
+    </p>
+</div>
+   
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="logo">
+            DAR <span>ZELLIJ</span>
+        </div>
+
+        <p>
+            © 2026 Dar Zellij - Tous droits réservés.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
